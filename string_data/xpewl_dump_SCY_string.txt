@@ -1,0 +1,293 @@
+Location    String Value    String Representation   Datatype
+0040e3ad	GetWindowThreadProcessId	"GetWindowThreadProcessId"	ds
+0040e39f	FindWindowA	"FindWindowA"	ds
+0040e392	user32.dll	"user32.dll"	ds
+0040e386	CloseHandle	"CloseHandle"	ds
+0040e373	TerminateProcess	"TerminateProcess"	ds
+0040e367	CopyFileA	"CopyFileA"	ds
+0040e359	CreateFileA	"CreateFileA"	ds
+0040e33e	CreateToolhelp32Snapshot	"CreateToolhelp32Snapshot"	ds
+0040e329	CreateRemoteThread	"CreateRemoteThread"	ds
+0040e31a	SetLastError	"SetLastError"	ds
+0040e304	GetCurrentProcessId	"GetCurrentProcessId"	ds
+0040e2f6	VirtualFree	"VirtualFree"	ds
+0040e2e7	VirtualAlloc	"VirtualAlloc"	ds
+0040e2d4	GetPriorityClass	"GetPriorityClass"	ds
+0040e2c5	ResumeThread	"ResumeThread"	ds
+0040e2bb	lstrlen	"lstrlen"	ds
+0040e2b0	lstrcpyA	"lstrcpyA"	ds
+0040e2a4	lstrcmpiA	"lstrcmpiA"	ds
+0040e299	lstrcatA	"lstrcatA"	ds
+0040e284	WriteProcessMemory	"WriteProcessMemory"	ds
+0040e278	WriteFile	"WriteFile"	ds
+0040e262	WaitForSingleObject	"WaitForSingleObject"	ds
+0040e254	ExitProcess	"ExitProcess"	ds
+0040e24c	Sleep	"Sleep"	ds
+0040e237	SetFileAttributesA	"SetFileAttributesA"	ds
+0040e228	ReleaseMutex	"ReleaseMutex"	ds
+0040e21a	OpenProcess	"OpenProcess"	ds
+0040e20d	OpenMutexA	"OpenMutexA"	ds
+0040e1fe	Module32Next	"Module32Next"	ds
+0040e1ee	Module32First	"Module32First"	ds
+0040e1d8	GetSystemDirectoryA	"GetSystemDirectoryA"	ds
+0040e1c7	GetProcAddress	"GetProcAddress"	ds
+0040e1b4	GetModuleHandleA	"GetModuleHandleA"	ds
+0040e19f	GetModuleFileNameA	"GetModuleFileNameA"	ds
+0040e18b	GetExitCodeThread	"GetExitCodeThread"	ds
+0040e179	GetCommandLineA	"GetCommandLineA"	ds
+0040e16a	kernel32.dll	"kernel32.dll"	ds
+0040e15e	RegCloseKey	"RegCloseKey"	ds
+0040e14e	RegCreateKeyA	"RegCreateKeyA"	ds
+0040e13b	RegQueryValueExA	"RegQueryValueExA"	ds
+0040e12c	advapi32.dll	"advapi32.dll"	ds
+0040e11e	ShellExecuteA	"ShellExecuteA"	ds
+0040e110	shell32.dll	"shell32.dll"	ds
+0040847c	Shell_TrayWnd	"Shell_TrayWnd"	ds
+00408467	\go154o.exe	"\\go154o.exe"	ds
+0040845a	i1i5n1j4.exe	"i1i5n1j4.exe"	ds
+0040844b	\i11r54n4.exe	"\\i11r54n4.exe"	ds
+00408442	rate.exe	"rate.exe"	ds
+00408432	SOFTWARE\windor	"SOFTWARE\\windor"	ds
+00408426	imain_mutex	"imain_mutex"	ds
+00408106	user32.dll	"user32.dll"	ds
+004080f8	kernel32.dll	"kernel32.dll"	ds
+004080ea	LoadLibraryA	"LoadLibraryA"	ds
+004080dc	FreeLibrary	"FreeLibrary"	ds
+0040808d	shell32.dll	"shell32.dll"	ds
+00408082	msvcrt.dll	"msvcrt.dll"	ds
+00408075	iphlpapi.dll	"iphlpapi.dll"	ds
+00408069	wininet.dll	"wininet.dll"	ds
+0040805c	advapi32.dll	"advapi32.dll"	ds
+00408050	shlwapi.dll	"shlwapi.dll"	ds
+00408045	user32.dll	"user32.dll"	ds
+0040803b	ole32.dll	"ole32.dll"	ds
+00408031	wsock.dll	"wsock.dll"	ds
+00407fc6	.reloc	".reloc"	ds
+0040796a	
+password for archive: %s
+	"\r\npassword for archive: %s\r\n"	ds
+0040793f	
+...btw, "%s" is a password for archive
+	"\r\n...btw, \"%s\" is a password for archive\r\n"	ds
+00407924	
+%s -- archive password
+	"\r\n%s -- archive password\r\n"	ds
+00407917	
+pass: %s
+	"\r\npass: %s\r\n"	ds
+00407904	
+password -- %s
+	"\r\npassword -- %s\r\n"	ds
+004078f3	
+password: %s
+	"\r\npassword: %s\r\n"	ds
+004078da	
+archive password: %s
+	"\r\narchive password: %s\r\n"	ds
+004078cd	Message	"Message"	ds
+004078c4	MoreInfo	"MoreInfo"	ds
+004078bd	Letter	"Letter"	ds
+004078b4	TextFile	"TextFile"	ds
+004078a2	TextDocument	"TextDocument"	ds
+00407891	AttachedDocument	"AttachedDocument"	ds
+00407884	AttachedFile	"AttachedFile"	ds
+00407876	Document	"Document"	ds
+0040786e	MsgInfo	"MsgInfo"	ds
+00407863	Readme	"Readme"	ds
+00407856	TextDocument	"TextDocument"	ds
+0040784f	Attach	"Attach"	ds
+00407831	The access is open !!!
+	"The access is open !!!\r\n"	ds
+0040781f	You have won!!!
+	"You have won!!!\r\n"	ds
+004077f9	Argh, i don't like the plaintext :)
+	"Argh, i don't like the plaintext :)\r\n"	ds
+004077da	Hey, dude, it's me ^_^ :P	"Hey, dude, it's me ^_^ :P"	ds
+004077ca	^_^ mew-mew (-:	"^_^ mew-mew (-:"	ds
+0040776b	Weah, hello! :-)	"Weah, hello! :-)"	ds
+0040774b	
+
+----------%s--
+
+.
+	"\r\n\r\n----------%s--\r\n\r\n.\r\n"	ds
+004076ac	----------%s
+Content-Type: application/octet-stream; name="%s.zip"
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="%s.zip"
+
+	"----------%s\r\nContent-Type: application/octet-stream; name=\"%s.zip\"\r\nContent-Transfer-Encoding: base64\r\nContent-Disposition: attachment; filename=\"%s.zip\"\r\n\r\n"	ds
+0040764c	----------%s
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: 7bit
+
+	"----------%s\r\nContent-Type: text/plain; charset=\"us-ascii\"\r\nContent-Transfer-Encoding: 7bit\r\n\r\n"	ds
+004075ba	Date: %s
+To: %s
+Subject: %s
+From: %s
+Message-ID: <%s%s>
+MIME-Version: 1.0
+Content-Type: multipart/mixed;
+        boundary="--------%s"
+
+	"Date: %s\r\nTo: %s\r\nSubject: %s\r\nFrom: %s\r\nMessage-ID: <%s%s>\r\nMIME-Version: 1.0\r\nContent-Type: multipart/mixed;\r\n        boundary=\"--------%s\"\r\n\r\n"	ds
+00407591	ddd',' dd MMM yyyy 	"ddd',' dd MMM yyyy "	ds
+00407577	ACDSee 9.exe	"ACDSee 9.exe"	ds
+00407566	Ahead Nero 7.exe	"Ahead Nero 7.exe"	ds
+0040754b	Adobe Photoshop 9 full.exe	"Adobe Photoshop 9 full.exe"	ds
+00407521	Matrix 3 Revolution English Subtitles.exe	"Matrix 3 Revolution English Subtitles.exe"	ds
+0040750f	WinAmp 6 New!.exe	"WinAmp 6 New!.exe"	ds
+004074ea	WinAmp 5 Pro Keygen Crack Update.exe	"WinAmp 5 Pro Keygen Crack Update.exe"	ds
+004074d9	Opera 8 New!.exe	"Opera 8 New!.exe"	ds
+004074c1	XXX hardcore images.exe	"XXX hardcore images.exe"	ds
+0040749f	Windows Sourcecode update.doc.exe	"Windows Sourcecode update.doc.exe"	ds
+00407480	Windown Longhorn Beta Leak.exe	"Windown Longhorn Beta Leak.exe"	ds
+00407470	Serials.txt.exe	"Serials.txt.exe"	ds
+00407455	Porno pics arhive, xxx.exe	"Porno pics arhive, xxx.exe"	ds
+0040742a	Porno, sex, oral, anal cool, awesome!!.exe	"Porno, sex, oral, anal cool, awesome!!.exe"	ds
+00407414	Porno Screensaver.scr	"Porno Screensaver.scr"	ds
+004073de	Microsoft Windows XP, WinXP Crack, working Keygen.exe	"Microsoft Windows XP, WinXP Crack, working Keygen.exe"	ds
+004073b0	Microsoft Office XP working Crack, Keygen.exe	"Microsoft Office XP working Crack, Keygen.exe"	ds
+00407386	Microsoft Office 2003 Crack, Working!.exe	"Microsoft Office 2003 Crack, Working!.exe"	ds
+004072f8	postmaster@	"postmaster@"	ds
+004072ec	local	"local"	ds
+004072e4	noreply	"noreply"	ds
+004072d3	@microsoft	"@microsoft"	ds
+004072bd	@hotmail.com	"@hotmail.com"	ds
+004072a9	DATA
+	"DATA\r\n"	ds
+0040729a	RCPT TO:<%s>
+	"RCPT TO:<%s>\r\n"	ds
+00407289	MAIL FROM:<%s>
+	"MAIL FROM:<%s>\r\n"	ds
+00407278	HELO %s
+	"HELO %s\r\n"	ds
+004071e3	SOFTWARE\Microsoft\Windows\CurrentVersion\Run	"SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Run"	ds
+004071b1	http://www.maiklibis.de/scr.php	"http://www.maiklibis.de/scr.php"	ds
+00407193	http://www.gfotxt.net/scr.php	"http://www.gfotxt.net/scr.php"	ds
+00407177	http://postertog.de/scr.php	"http://postertog.de/scr.php"	ds
+00407169	AVLTMAIN.EXE	"AVLTMAIN.EXE"	ds
+0040715d	OUTPOST.EXE	"OUTPOST.EXE"	ds
+00407150	NUPGRADE.EXE	"NUPGRADE.EXE"	ds
+00407143	MCUPDATE.EXE	"MCUPDATE.EXE"	ds
+00407136	CFIAUDIT.EXE	"CFIAUDIT.EXE"	ds
+0040712a	AVXQUAR.EXE	"AVXQUAR.EXE"	ds
+0040711b	AUTOUPDATE.EXE	"AUTOUPDATE.EXE"	ds
+0040710d	AUTOTRACE.EXE	"AUTOTRACE.EXE"	ds
+00407100	AUTODOWN.EXE	"AUTODOWN.EXE"	ds
+004070f4	AUPDATE.EXE	"AUPDATE.EXE"	ds
+004070e6	ATUPDATER.EXE	"ATUPDATER.EXE"	ds
+004070d9	NUPGRADE.EXE	"NUPGRADE.EXE"	ds
+004070ce	UPDATE.EXE	"UPDATE.EXE"	ds
+004070b3	ICSSUPPNT.EXE	"ICSSUPPNT.EXE"	ds
+004070a6	DRWEBUPW.EXE	"DRWEBUPW.EXE"	ds
+0040709c	LUALL.EXE	"LUALL.EXE"	ds
+00407091	AVPUPD.EXE	"AVPUPD.EXE"	ds
+00407084	AVWUPD32.EXE	"AVWUPD32.EXE"	ds
+00407076	ATUPDATER.EXE	"ATUPDATER.EXE"	ds
+0040705f	rate.exe	"rate.exe"	ds
+0040704f	SOFTWARE\windor	"SOFTWARE\\windor"	ds
+00407043	imain_mutex	"imain_mutex"	ds
+00406f2c	SHELL32.dll	"SHELL32.dll"	ds
+00406f1e	ShellExecuteA	"ShellExecuteA"	ds
+00406f10	urlmon.dll	"urlmon.dll"	ds
+00406efc	URLDownloadToFileA	"URLDownloadToFileA"	ds
+00406eec	iphlpapi.dll	"iphlpapi.dll"	ds
+00406eda	GetNetworkParams	"GetNetworkParams"	ds
+00406eca	advapi32.dll	"advapi32.dll"	ds
+00406eba	RegSetValueExA	"RegSetValueExA"	ds
+00406ea6	RegQueryValueExA	"RegQueryValueExA"	ds
+00406e94	RegDeleteValueA	"RegDeleteValueA"	ds
+00406e84	RegDeleteKeyA	"RegDeleteKeyA"	ds
+00406e74	RegCreateKeyA	"RegCreateKeyA"	ds
+00406e66	RegCloseKey	"RegCloseKey"	ds
+00406e58	wininet.dll	"wininet.dll"	ds
+00406e46	InternetOpenUrlA	"InternetOpenUrlA"	ds
+00406e36	InternetOpenA	"InternetOpenA"	ds
+00406e1a	InternetGetConnectedState	"InternetGetConnectedState"	ds
+00406e04	InternetCloseHandle	"InternetCloseHandle"	ds
+00406df6	shlwapi.dll	"shlwapi.dll"	ds
+00406dec	StrTrimA	"StrTrimA"	ds
+00406de0	StrStrIA	"StrStrIA"	ds
+00406dd4	StrRChrA	"StrRChrA"	ds
+00406dbe	ole32.dll	"ole32.dll"	ds
+00406da8	CreateStreamOnHGlobal	"CreateStreamOnHGlobal"	ds
+00406d98	CoInitialize	"CoInitialize"	ds
+00406d8a	wsock32.dll	"wsock32.dll"	ds
+00406d82	socket	"socket"	ds
+00406d70	select	"select"	ds
+00406d5e	listen	"listen"	ds
+00406d52	inet_addr	"inet_addr"	ds
+00406d44	gethostname	"gethostname"	ds
+00406d34	gethostbyname	"gethostbyname"	ds
+00406d2a	connect	"connect"	ds
+00406d1c	closesocket	"closesocket"	ds
+00406d0a	accept	"accept"	ds
+00406cfc	WSAStartup	"WSAStartup"	ds
+00406cee	WSACleanup	"WSACleanup"	ds
+00406ce0	user32.dll	"user32.dll"	ds
+00406cd6	wsprintfA	"wsprintfA"	ds
+00406cc6	kernel32.dll	"kernel32.dll"	ds
+00406cbc	lstrlenA	"lstrlenA"	ds
+00406ca4	lstrcatA	"lstrcatA"	ds
+00406c98	WriteFile	"WriteFile"	ds
+00406c8e	WinExec	"WinExec"	ds
+00406c78	WaitForSingleObject	"WaitForSingleObject"	ds
+00406c66	UnmapViewOfFile	"UnmapViewOfFile"	ds
+00406c54	TerminateThread	"TerminateThread"	ds
+00406c40	TerminateProcess	"TerminateProcess"	ds
+00406c28	SystemTimeToFileTime	"SystemTimeToFileTime"	ds
+00406c0e	SetFilePointer	"SetFilePointer"	ds
+00406bfe	SetEndOfFile	"SetEndOfFile"	ds
+00406bee	ReleaseMutex	"ReleaseMutex"	ds
+00406be2	ReadFile	"ReadFile"	ds
+00406bd2	Process32Next	"Process32Next"	ds
+00406bc0	Process32First	"Process32First"	ds
+00406bb2	OpenProcess	"OpenProcess"	ds
+00406ba2	MapViewOfFile	"MapViewOfFile"	ds
+00406b96	LocalFree	"LocalFree"	ds
+00406b88	LocalAlloc	"LocalAlloc"	ds
+00406b7a	GlobalFree	"GlobalFree"	ds
+00406b6c	GlobalAlloc	"GlobalAlloc"	ds
+00406b54	GetWindowsDirectoryA	"GetWindowsDirectoryA"	ds
+00406b3a	GetTimeZoneInformation	"GetTimeZoneInformation"	ds
+00406b28	GetTimeFormatA	"GetTimeFormatA"	ds
+00406b18	GetTickCount	"GetTickCount"	ds
+00406b02	GetSystemDirectoryA	"GetSystemDirectoryA"	ds
+00406ae8	GetLogicalDriveStringsA	"GetLogicalDriveStringsA"	ds
+00406ad8	GetLocalTime	"GetLocalTime"	ds
+00406aca	GetFileSize	"GetFileSize"	ds
+00406aba	GetDriveTypeA	"GetDriveTypeA"	ds
+00406aa8	GetDateFormatA	"GetDateFormatA"	ds
+00406a92	GetCurrentThreadId	"GetCurrentThreadId"	ds
+00406a82	FindNextFileA	"FindNextFileA"	ds
+00406a70	FindFirstFileA	"FindFirstFileA"	ds
+00406a64	FindClose	"FindClose"	ds
+00406a48	CreateToolhelp32Snapshot	"CreateToolhelp32Snapshot"	ds
+00406a38	CreateThread	"CreateThread"	ds
+00406a28	CreateMutexA	"CreateMutexA"	ds
+00406a12	CreateFileMappingA	"CreateFileMappingA"	ds
+00406a04	CreateFileA	"CreateFileA"	ds
+004069f8	CopyFileA	"CopyFileA"	ds
+004069e6	CompareFileTime	"CompareFileTime"	ds
+004069d8	CloseHandle	"CloseHandle"	ds
+0040321e	.reloc	".reloc"	ds
+004031cd	`.rdata	"`.rdata"	ds
+0040301a	FreeLibrary	"FreeLibrary"	ds
+0040300d	LoadLibraryA	"LoadLibraryA"	ds
+00403000	kernel32.dll	"kernel32.dll"	ds
+004017e9	SetThreadAffinityMask	"SetThreadAffinityMask"	ds
+004017d7	ReadProcessMemory	"ReadProcessMemory"	ds
+004017ca	NtOpenThread	"NtOpenThread"	ds
+004017b6	NtFreeVirtualMemory	"NtFreeVirtualMemory"	ds
+0040179e	NtAllocateVirtualMemory	"NtAllocateVirtualMemory"	ds
+00401788	RtlNtStatusToDosError	"RtlNtStatusToDosError"	ds
+00400298	.SCY	".SCY"	char[8]
+00400270		""	char[8]
+00400248		""	char[8]
+00400220		""	char[8]
+004001f8		""	char[8]
+004001d0		""	char[8]
+004000d8	PE	"PE"	char[4]
+00400000	MZ	"MZ"	char[2]
