@@ -1,0 +1,6 @@
+FreeLibrary	External[000010b4]	External Function	KERNEL32.DLL	Imported	3	0
+entry	100010ec	Function	Global	Imported	2	0
+LoadLibraryA	External[000010c2]	External Function	KERNEL32.DLL	Imported	3	0
+FUN_1000113e	1000113e	Function	Global	Default	1	0
+LoadLibraryA	10001164	Thunk Function	KERNEL32.DLL	Default	2	0
+FreeLibrary	1000115e	Thunk Function	KERNEL32.DLL	Default	1	0
