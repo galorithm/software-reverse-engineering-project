@@ -23,10 +23,15 @@ steps should be followed.
 # 1. Start the virtual environment
 $ <path to venv>\venv\scripts\Activate
 
-# 2. Install pyinstaller
+# 2. Install the python dependencies of the source
+# (other dependencies like json, csv, argparse, logging, subprocess, time
+# are likely already present in your virtual environment)
+pip install pefile
+
+# 3. Install pyinstaller
 $ pip install pyinstaller
 
-# 3. Use pyinstaller to create standalone tool executable
+# 4. Use pyinstaller to create standalone tool executable
 $ pyinstaller --onefile src/ek_tool.py
 ```
 
