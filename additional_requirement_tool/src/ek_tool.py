@@ -5,6 +5,7 @@ Limitations:
 '''
 import argparse
 import subprocess
+import pefile
 
 import json
 import os
@@ -38,6 +39,55 @@ def get_strings_from_pe_file(strings_executable_path, pe_file_path):
     logging.info(f'Pe file {pe_file_path} contains strings {strings_list}')
 
     return strings_list
+
+def add_entry_to_import_export_list(target_list, entry):
+    '''
+    target_list: the list to add the import/export entry to
+    entry: import entry or export symbol object
+    '''
+    if entry.name:
+        target_list.append(entry.name.decode('utf-8'))
+    else:
+        # import/export via ordinal number
+        target_list.append(f'ordinal_{entry.ordinal}')
+
+    logging.info(f'Added import/export entry {target_list[-1]}')
+
+def get_imports_from_pe_file(pe_file_path):
+    """
+    Fetch imports from a pe file and return in a 
+    dictionary (key dll name, list against that imports by the dll
+    via function names or ordinal numbers) 
+    """
+    imports_dict = {}
+    pe = pefile.PE(pe_file_path)
+
+    logging.info('scanning imports')
+    if hasattr(pe, 'DIRECTORY_ENTRY_IMPORT'):
+        for entry in pe.DIRECTORY_ENTRY_IMPORT:
+            dll_name = entry.dll.decode('utf-8')
+            logging.info(f'dll import {dll_name} found')
+
+            imports_dict[dll_name] = []
+            for imp in entry.imports:
+                add_entry_to_import_export_list(imports_dict[dll_name], imp)
+
+    return imports_dict
+
+def get_exports_from_pe_file(pe_file_path):
+    """
+    Returns the list of functions that the pe file exports
+    (via names or ordinal numbers)
+    """
+    exports_list = []
+    pe = pefile.PE(pe_file_path)
+
+    logging.info('Scanning exports')
+    if hasattr(pe, 'DIRECTORY_ENTRY_EXPORT'):
+        for sym in pe.DIRECTORY_ENTRY_EXPORT.symbols:
+            add_entry_to_import_export_list(exports_list, sym)
+
+    return exports_list
 
 def parse_cli_args():
     """
@@ -102,10 +152,14 @@ def parse_config_file(config_file_path):
 
 def dump_details_to_json(malware_file_path,
                          strings_list,
+                         imports_dict,
+                         exports_list,
                          output_json_file_path):
     output_json_dict = {
             "file_path": malware_file_path,
-            "strings": strings_list
+            "strings": strings_list,
+            "imports": imports_dict,
+            "exports": exports_list,
             }
 
     with open(output_json_file_path, "w", encoding = "utf-8") as f:
@@ -123,7 +177,11 @@ if __name__ == "__main__":
     strings_list = get_strings_from_pe_file(config[CONFIG_KEY_STRINGS_EXECUTABLE_FILE_PATH],
                                             malware_file_path)
 
+    imports_dict = get_imports_from_pe_file(malware_file_path)
+    exports_list = get_exports_from_pe_file(malware_file_path)
+
     dump_details_to_json(malware_file_path,
                          strings_list,
+                         imports_dict,
+                         exports_list,
                          output_json_file_path)
-
