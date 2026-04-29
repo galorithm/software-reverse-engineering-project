@@ -1,5 +1,9 @@
 The ek\_tool was written to satisfy the additional requirement of CSCE 652.
 
+## Tool Demo link
+
+[Link to demo video](https://drive.google.com/file/d/1nNc0AOCn7CkyiO3nNAQUpQE15rKbN78H/view?usp=sharing)
+
 ## What does the ek\_tool do?
 
 The tool (executable generated from python source via pyinstaller)
