@@ -1,0 +1,20 @@
+# Template that should be copied over to the VM and modified
+# as per your VM
+
+# strings.exe path
+STRINGS_EXECUTABLE_FILE_PATH = c:\mingw64\bin\strings.exe
+
+# procmon path
+PROCMON_EXECUTABLE_FILE_PATH = D:\procmon\Procmon.exe
+
+# file (exported from procmon after applying needed
+# filters), helps to specify filters to the tool.
+#
+# The flow to obtain this configuration file is:
+# - Open the procmon on your VM manually
+# - Setup filters as per preferences
+# - Check Filter -> Drop Filtered Events (so that only filtered events
+#    get logged in the output analysis files)
+# - Click File -> Export Configuration to export the configuration file
+#   to a ".pmc" file, and specify the path below
+PROCMON_CONFIG_FILE_PATH = D:\SoftwareReverseEngineering\Project\Tool\ProcmonConfiguration.pmc
