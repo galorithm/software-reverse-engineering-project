@@ -1,3 +1,5 @@
+The ek\_tool was written to satisfy the additional requirement of CSCE 652.
+
 ## What does the ek\_tool do?
 
 The tool (executable generated from python source via pyinstaller)
